@@ -36,4 +36,3 @@ class ArticleView(APIView):
             {"message": "Article '{}' has been deleted".format(pk)},
             status=204
         )
-
